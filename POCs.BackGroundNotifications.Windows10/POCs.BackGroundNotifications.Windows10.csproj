@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<OutputType>WinExe</OutputType>
+		<UserSecretsId>dotnet-POCs.BackGroundNotifications.Windows10-0C35B96F-6D5A-4DB8-9155-8A356A649D3F</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0-rc.1.21451.13" />
+		<PackageReference Include="Microsoft.Toolkit.Uwp.Notifications" Version="7.1.0" />
+	</ItemGroup>
+</Project>
